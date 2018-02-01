@@ -1,7 +1,7 @@
 const request = require('request');
 const fs = require('fs');
 const config = require('./config.json');
-const baseUrl = `https://${config.challonge.username}:${config.challonge.apiKey}@api.challonge.com/v1/`;
+const challongeApiBaseUrl = `https://${config.challonge.username}:${config.challonge.apiKey}@api.challonge.com/v1/`;
 const userAgent = "alttp-tourney-seeder/1.0";
 const src = require('./lib/src.js');
 const participantsFile = 'participants.json';
@@ -16,7 +16,7 @@ function getParticipants(cb) {
 	// otherwise, get the current list from challonge
 	let path = `tournaments/${config.challonge.tourneyId}/participants.json`;
 	let participantReq = {
-		url: baseUrl+path,
+		url: challongeApiBaseUrl+path,
 		headers: {'User-Agent': userAgent}
 	};
 	let list = [];
@@ -48,8 +48,7 @@ async function asyncForEach(array, callback) {
   }
 }
 
-// @TODO: Map challonge username to SRC username
-// Have a list of the cases where they do not match
+// Map challonge username to SRC username
 let challongeToSRCMap = {
 	"TGH_": "TGH",
 	"Ineb": "Andy",
@@ -65,7 +64,8 @@ let challongeToSRCMap = {
 	"mashystrr": "mashy",
 	"jerbie2": "jerbie",
 	"Jem_": "Jem",
-	"mugi": "ivan"
+	"mugi": "ivan",
+	"TrogdorSRL": "trogdor"
 };
 
 // NotFmayweather (cryptonberry)
@@ -81,8 +81,8 @@ let pbOverrides = {
 	"runnerwatcher": 5242
 };
 
-let missingCount = 0;
 let foundCount = 0;
+let missingList = [];
 
 getParticipants((list) => {
 	// Pull in current PB's for all challonge entrants
@@ -106,32 +106,32 @@ getParticipants((list) => {
 				}
 			}
 
-			if (participant.hasOwnProperty('pb')) {
+			if (participant.hasOwnProperty('pb') && participant.pb != 9999) {
 				foundCount++;
 			} else {
-				missingCount++;
-				console.log(`!!!!! ${participant.challongeUsername} !!!!!`);
+				participant.pb = 9999;
+				missingList.push(participant.challongeUsername);
+				console.log(`!!!No PB found for ${participant.challongeUsername}!!!`);
 			}
 
 			list[index] = participant;
 		});
-		cb(list, foundCount, missingCount);
+		cb(list, foundCount, missingList);
 	};
 
-	startPBSearch((list, foundCount, missingCount) => {
-		console.log(`Finished PB search... found ${foundCount}, missing ${missingCount}`);
+	startPBSearch((list, foundCount, missingList) => {
+		console.log(`Finished PB search... found ${foundCount}, missing ${missingList.length}`);
 		fs.writeFile(participantsFile, JSON.stringify(list), (err) => {
 			if (err) console.error(err);
-				console.log(`Saved list to ${participantsFile}!`);
+			console.log(`Saved list to ${participantsFile}!`);
+			fs.writeFile(participantsFile+'-missing', JSON.stringify(missingList), (err) => {
+				if (err) console.error(err);
+				console.log(`Saved missing list to ${participantsFile}-missing!`);
+				// Stop process
+				process.exit(0);
 			});
+		});
 	});
-
-	// Sort PBs
-
-	// Update seeds on challonge
-
-	// Stop process
-	//process.exit(0);
 });
 
 // catch Promise errors
