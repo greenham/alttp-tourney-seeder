@@ -5,6 +5,7 @@ const challongeApiBaseUrl = `https://${config.challonge.username}:${config.chall
 const userAgent = "alttp-tourney-seeder/1.0";
 const src = require('./lib/src.js');
 const participantsFile = 'participants.json';
+const groupSize = 4;
 
 // Pull in participants.json
 if (!fs.existsSync(participantsFile)) {
@@ -20,6 +21,7 @@ participants.sort((a, b) => {
 	return a.pb - b.pb;
 });
 
+// @TODO: Make this dynamic based on groupSize
 // Segment participants into buckets of 32
 let bucket0, bucket1, bucket2, bucket3;
 bucket0 = participants.slice(0,32);
@@ -35,7 +37,7 @@ participants.forEach((participant, index) => {
 });
 
 // Place participants in groups of 4, one from each bucket
-let numberOfGroups = participants.length / 4;
+let numberOfGroups = participants.length / groupSize;
 let groups = [];
 for (var i = 1; i <= numberOfGroups; i++) {
 	// Pick a random participant from each bucket to create a group
