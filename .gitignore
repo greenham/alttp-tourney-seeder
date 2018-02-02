@@ -2,4 +2,4 @@ config.json
 node_modules
 groups.json
 seeds.txt
-participants.json
+participants.json*
