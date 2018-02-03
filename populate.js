@@ -65,7 +65,9 @@ let challongeToSRCMap = {
 	"jerbie2": "jerbie",
 	"Jem_": "Jem",
 	"mugi": "ivan",
-	"TrogdorSRL": "trogdor"
+	"TrogdorSRL": "trogdor",
+	"TheKipp": "Kipp",
+	"Eazin": "Eazinn"
 };
 
 // NotFmayweather (cryptonberry)
