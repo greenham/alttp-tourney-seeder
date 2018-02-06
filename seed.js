@@ -25,7 +25,7 @@ participants.sort((a, b) => {
 participants.forEach((participant, index) => {
 	participant.seed = index+1;
 	participants[index] = participant;
-	//console.log(`${index+1}. ${participant.srcUsername}`);
+	console.log(`${index+1}. ${participant.srcUsername}`);
 });
 
 // Create the appropriate number of buckets based on groupSize

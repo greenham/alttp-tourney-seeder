@@ -80,7 +80,8 @@ let challongeToSRCMap = {
 
 let pbOverrides = {
 	"wqqqqwrt": 5012,
-	"WillardJBradley": 5785
+	"WillardJBradley": 5785,
+	"Ninban": 6111
 };
 
 let foundCount = 0;
