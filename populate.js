@@ -67,7 +67,9 @@ let challongeToSRCMap = {
 	"mugi": "ivan",
 	"TrogdorSRL": "trogdor",
 	"TheKipp": "Kipp",
-	"Eazin": "Eazinn"
+	"Eazin": "Eazinn",
+	"Eriprham": "Eriphram",
+	"simpol": "Simpoldood"
 };
 
 // NotFmayweather (cryptonberry)
@@ -81,7 +83,8 @@ let challongeToSRCMap = {
 let pbOverrides = {
 	"wqqqqwrt": 5012,
 	"WillardJBradley": 5785,
-	"Ninban": 6111
+	"Ninban": 6111,
+	"LavanFirestorm": 6638
 };
 
 let foundCount = 0;
@@ -113,7 +116,7 @@ getParticipants((list) => {
 				foundCount++;
 			} else {
 				participant.pb = 9999;
-				missingList.push(participant.challongeUsername);
+				missingList.push(participant.challongeUsername + ' (' + participant.srcUsername + ')');
 				console.log(`!!!No PB found for ${participant.challongeUsername}!!!`);
 			}
 
