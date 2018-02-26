@@ -69,22 +69,23 @@ let challongeToSRCMap = {
 	"TheKipp": "Kipp",
 	"Eazin": "Eazinn",
 	"Eriprham": "Eriphram",
-	"simpol": "Simpoldood"
+	"simpol": "Simpoldood",
+	"bigzizio": "Maxketchumz",
+	"cryptonberry": "NotFmayweather",
+	"NinTaylor": "SuperNinTaylor",
+	"wqqqqwrt": "WQSpeedruns",
+	"felix0the0cat": "felix_tc",
 };
 
 // NotFmayweather (cryptonberry)
 // Shatty (ShattyGames)
 // Superplayer02 (SprSuperplayer2)
-// felix_tc (felix0the0cat)
 // __ICEY420Ku$hb0ii69__ (VReznor)
 // Lyra (MoonlightMelody)
 // Maxketchumz (bigzizio)
 
 let pbOverrides = {
-	"wqqqqwrt": 5012,
-	"WillardJBradley": 5785,
-	"Ninban": 6111,
-	"LavanFirestorm": 6638
+	"WillardJBradley": 5785
 };
 
 let foundCount = 0;
