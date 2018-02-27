@@ -68,6 +68,7 @@ for (let h = 0; h < genNumGroups; h++) {
 function generateGroups(buckets, numGroups, groupSize)
 {
 	// Place participants in groups of groupSize, one from each bucket
+	let currentSeed = 0;
 	let groups = [];
 	let groupsText = [];
 	for (let i = 0; i < numGroups; i++) {
@@ -75,6 +76,7 @@ function generateGroups(buckets, numGroups, groupSize)
 		let groupLog = [];
 		for (let j = 0; j < groupSize; j++) {
 			let p = buckets[j].splice(Math.floor(Math.random() * buckets[j].length), 1)[0];
+			p.groupSeed = currentSeed++;
 			newGroup.push(p);
 			groupLog.push(`${p.srcUsername} (${p.seed})`);
 		}
@@ -90,5 +92,25 @@ function generateGroups(buckets, numGroups, groupSize)
 	});
 }
 
-// process.exit(0);
 // @TODO: Update seeds on challonge (re-number based on buckets)
+// this should probably go in a separate script so that you can choose which group list to use
+/*let basePath = `tournaments/${config.challonge.tourneyId}/participants/`;
+participants.forEach((participant, index) => {
+	let participantReq = {
+		url: challongeApiBaseUrl+basePath+participant.challongeId+'.json',
+		method: 'PUT',
+		headers: {'User-Agent': userAgent},
+		body: {seed: participant.seed},
+		json: true
+	};
+
+	console.log(participantReq);
+
+	request(participantReq, function(error, response, body) {
+	  if (!error && response.statusCode == 200) {
+	    console.log(`Updated seed for ${participant.challongeUsername} to ${participant.seed}`);
+	  } else {
+	  	console.error(`Received statusCode ${response.statusCode} from challonge: `, error);
+	  }
+	});
+});*/
