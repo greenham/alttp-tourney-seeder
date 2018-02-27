@@ -57,7 +57,6 @@ let challongeToSRCMap = {
 	"Salatmann": "Salatmann92",
 	"SNESChalmers": "SNESChalmers_",
 	"Lui37": "Lui",
-	"Mishrak": "mishrak109",
 	"SerelepeM": "SerelepeMarsupial",
 	"ElminsterRTA": "Elminster",
 	"Maniacal42": "Maniacal",
@@ -73,7 +72,6 @@ let challongeToSRCMap = {
 	"bigzizio": "Maxketchumz",
 	"cryptonberry": "NotFmayweather",
 	"NinTaylor": "SuperNinTaylor",
-	"wqqqqwrt": "WQSpeedruns",
 	"felix0the0cat": "felix_tc",
 };
 
@@ -85,6 +83,7 @@ let challongeToSRCMap = {
 // Maxketchumz (bigzizio)
 
 let pbOverrides = {
+	"wqqqqwrt": 5012,
 	"WillardJBradley": 5785
 };
 

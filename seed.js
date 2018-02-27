@@ -22,10 +22,17 @@ participants.sort((a, b) => {
 });
 
 // Set participant's original seed
+let seedList = [];
 participants.forEach((participant, index) => {
 	participant.seed = index+1;
 	participants[index] = participant;
-	console.log(`${index+1}. ${participant.srcUsername}`);
+	seedList.push(`${index+1}. ${participant.srcUsername}`);
+});
+
+let seedFile = 'out/seeds-'+Date.now()+'.txt';
+fs.writeFile(seedFile, seedList.join("\n"), (err) => {
+	if (err) console.error(err);
+	console.log(`Wrote original seeds to ${seedFile}`);
 });
 
 // Create the appropriate number of buckets based on groupSize
@@ -37,6 +44,7 @@ for (let i = 0; i < groupSize; i++) {
 
 // Place participants in groups of groupSize, one from each bucket
 let groups = [];
+let groupsText = [];
 for (let i = 0; i < numGroups; i++) {
 	let newGroup = [];
 	let groupLog = [];
@@ -46,14 +54,22 @@ for (let i = 0; i < numGroups; i++) {
 		groupLog.push(`${p.srcUsername} (${p.seed})`);
 	}
 	
-	console.log(`Group ${i+1}: ${groupLog.join(', ')}`);
+	groupsText.push(`Group ${i+1}: ${groupLog.join(', ')}`);
 	groups.push(newGroup);
 }
 
-fs.writeFile('groups.json', JSON.stringify(groups), (err) => {
+let groupsTextFile = 'out/groups-'+Date.now()+'.txt';
+fs.writeFile(groupsTextFile, groupsText.join("\n"), (err) => {
 	if (err) console.error(err);
-	console.log('Wrote groups to groups.json');
+	console.log(`Wrote groups text to ${groupsTextFile}`);
 	process.exit(0);
 });
 
-// @TODO: Update seeds on challonge
+/*let groupsFile = 'groups-'+Date.now()+'.json';
+fs.writeFile(groupsFile, JSON.stringify(groups), (err) => {
+	if (err) console.error(err);
+	console.log(`Wrote groups to ${groupsFile}`);
+	process.exit(0);
+});*/
+
+// @TODO: Update seeds on challonge (re-number based on buckets)
