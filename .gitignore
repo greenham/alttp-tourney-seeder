@@ -4,4 +4,5 @@ groups.json
 seeds.txt
 missing.txt
 participants.json*
+participants-missing.txt
 out/*

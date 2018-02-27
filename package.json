@@ -9,6 +9,7 @@
   "dependencies": {
     "md5": "^2.2.1",
     "memcache": "^0.3.0",
+    "minimist": "^1.2.0",
     "request": "^2.83.0",
     "then-request": "^5.0.0"
   },
