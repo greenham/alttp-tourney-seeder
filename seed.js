@@ -4,6 +4,7 @@ const config = require('./config.json');
 const challongeApiBaseUrl = `https://${config.challonge.username}:${config.challonge.apiKey}@api.challonge.com/v1/`;
 const userAgent = "alttp-tourney-seeder/1.0";
 const src = require('./lib/src.js');
+const util = require('./lib/util.js');
 const participantsFile = 'participants.json';
 const groupSize = 4;
 let parseArgs = require('minimist')(process.argv.slice(2));
@@ -33,7 +34,7 @@ let seedList = [];
 participants.forEach((participant, index) => {
 	participant.seed = index+1;
 	participants[index] = participant;
-	seedList.push(`${index+1}. ${participant.srcUsername} (${participant.pb})`);
+	seedList.push(`${index+1}. ${participant.srcUsername} (${participant.pb.toString().toHHMMSS()})`);
 	partList.push(participant.srcUsername);
 });
 
