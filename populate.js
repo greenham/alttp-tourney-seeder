@@ -65,22 +65,19 @@ let challongeToSRCMap = {
 	"Jem_": "Jem",
 	"mugi": "ivan",
 	"TrogdorSRL": "trogdor",
-	"TheKipp": "Kipp",
 	"Eazin": "Eazinn",
 	"Eriprham": "Eriphram",
 	"simpol": "Simpoldood",
 	"bigzizio": "Maxketchumz",
-	"cryptonberry": "NotFmayweather",
 	"NinTaylor": "SuperNinTaylor",
 	"felix0the0cat": "felix_tc",
+	"chaucer": "chaucer_",
+	"zets27": "zets",
+	"Phuckbutt": "Antinomy",
+	"solidusSRL": "solidus",
+	"MoonlightMelody": "LyraSRL",
+	"c0smoh": "Cosmoh"
 };
-
-// NotFmayweather (cryptonberry)
-// Shatty (ShattyGames)
-// Superplayer02 (SprSuperplayer2)
-// __ICEY420Ku$hb0ii69__ (VReznor)
-// Lyra (MoonlightMelody)
-// Maxketchumz (bigzizio)
 
 let pbOverrides = {
 	"wqqqqwrt": 5012,
@@ -112,10 +109,10 @@ getParticipants((list) => {
 				}
 			}
 
-			if (participant.hasOwnProperty('pb') && participant.pb != 9999) {
+			if (participant.hasOwnProperty('pb') && participant.pb != 36000) {
 				foundCount++;
 			} else {
-				participant.pb = 9999;
+				participant.pb = 36000;
 				missingList.push(participant.challongeUsername + ' (' + participant.srcUsername + ')');
 				console.log(`!!!No PB found for ${participant.challongeUsername}!!!`);
 			}
