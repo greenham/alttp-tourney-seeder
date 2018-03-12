@@ -6,6 +6,7 @@ const userAgent = "alttp-tourney-seeder/1.0";
 const src = require('./lib/src.js');
 const util = require('./lib/util.js');
 const participantsFile = 'participants.json';
+const groupNamesFile = 'conf/group-names.json';
 const groupSize = 4;
 let parseArgs = require('minimist')(process.argv.slice(2));
 
@@ -51,6 +52,8 @@ if (!groupsOnly) {
 	});
 }
 
+let groupNames = JSON.parse(fs.readFileSync(groupNamesFile)) || [];
+
 // Create the appropriate number of buckets based on groupSize
 // Fill buckets with participants using seed order
 let numGroups = participants.length / groupSize;
@@ -62,26 +65,47 @@ for (let g = 0; g < groupSize; g++) {
 // Generate numGroups sets of groups
 for (let h = 0; h < genNumGroups; h++) {
 	let bucketsCopy = JSON.parse(JSON.stringify(buckets));
-	generateGroups(bucketsCopy, numGroups, groupSize);
+	generateGroups(bucketsCopy, numGroups, groupSize, groupNames);
 }
 
-function generateGroups(buckets, numGroups, groupSize)
+// Places participants in desired number of groups of groupSize, one from each bucket
+function generateGroups(buckets, numGroups, groupSize, groupNames)
 {
-	// Place participants in groups of groupSize, one from each bucket
 	let currentSeed = 0;
 	let groups = [];
 	let groupsText = [];
+	let bucketNames = {
+		0: "1-32  ",
+		1: "33-64 ",
+		2: "65-96 ",
+		3: "97-128",
+	}
+
 	for (let i = 0; i < numGroups; i++) {
-		let newGroup = [];
+		let newGroup = {};
 		let groupLog = [];
+
+		// pick a random name for this group
+		newGroup.name = groupNames.splice(Math.floor(Math.random() * groupNames.length), 1);
+		newGroup.members = [];
+
+		groupLog.push(`GROUP : ${newGroup.name}`);
+
 		for (let j = 0; j < groupSize; j++) {
+			// choose random participant from the current bucket
 			let p = buckets[j].splice(Math.floor(Math.random() * buckets[j].length), 1)[0];
+
+			// track 'group seed' for ordering on challonge later
 			p.groupSeed = currentSeed++;
-			newGroup.push(p);
-			groupLog.push(`${p.srcUsername} (${p.seed})`);
+
+			// add new member
+			newGroup.members.push(p);
+
+			// log
+			groupLog.push(`${bucketNames[j]}: ${p.srcUsername} (${p.seed}) [${p.pb.toString().toHHMMSS()}]`);
 		}
 		
-		groupsText.push(`Group ${i+1}: ${groupLog.join(', ')}`);
+		groupsText.push(groupLog.join("\n"), "");
 		groups.push(newGroup);
 	}
 
