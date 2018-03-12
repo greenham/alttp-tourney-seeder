@@ -71,7 +71,7 @@ for (let h = 0; h < genNumGroups; h++) {
 // Places participants in desired number of groups of groupSize, one from each bucket
 function generateGroups(buckets, numGroups, groupSize, groupNames)
 {
-	let currentSeed = 0;
+	let currentSeed = 1;
 	let groups = [];
 	let groupsText = [];
 	let bucketNames = {
@@ -109,10 +109,18 @@ function generateGroups(buckets, numGroups, groupSize, groupNames)
 		groups.push(newGroup);
 	}
 
-	let groupsFile = 'out/groups-'+Math.floor(Math.random()*1000000)+'.txt';
+	let groupsSeed = Math.floor(Math.random()*1000000);
+
+	let groupsFile = 'out/groups-'+groupsSeed+'.txt';
 	fs.writeFile(groupsFile, groupsText.join("\n"), (err) => {
 		if (err) console.error(err);
 		console.log(`Wrote groups text to ${groupsFile}`);
+	});
+
+	let groupsJson = 'out/groups-'+groupsSeed+'.json';
+	fs.writeFile(groupsJson, JSON.stringify(groups), (err) => {
+		if (err) console.error(err);
+		console.log(`Wrote groups json to ${groupsJson}`);
 	});
 }
 
