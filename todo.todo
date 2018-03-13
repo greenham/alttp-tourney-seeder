@@ -1,5 +1,5 @@
 Seeding Tool:
-  ☐ Test automated challonge seed update
-  ☐ Modify seeding update to reflect group order, not natural seeding
+  ✔ Test automated challonge seed update @done (18-03-13 13:47)
+  ✔ Modify seeding update to reflect group order, not natural seeding @done (18-03-13 13:47)
   ✔ Randomly select group names from conf/group_names @done (18-03-12 11:32)
   ✔ Format text file with group name headings and each group member on their own line @done (18-03-12 11:32)
