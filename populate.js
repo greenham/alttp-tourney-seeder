@@ -76,7 +76,8 @@ let challongeToSRCMap = {
 	"Phuckbutt": "Antinomy",
 	"solidusSRL": "solidus",
 	"MoonlightMelody": "LyraSRL",
-	"c0smoh": "Cosmoh"
+	"c0smoh": "Cosmoh",
+	"waffle42": "waffle"
 };
 
 let pbOverrides = {
