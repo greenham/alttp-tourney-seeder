@@ -77,12 +77,12 @@ let challongeToSRCMap = {
 	"solidusSRL": "solidus",
 	"MoonlightMelody": "LyraSRL",
 	"c0smoh": "Cosmoh",
-	"waffle42": "waffle"
+	"waffle42": "waffle",
+	"JSR_": "JSR"
 };
 
 let pbOverrides = {
-	"wqqqqwrt": 5012,
-	"WillardJBradley": 5785
+	"wqqqqwrt": 5012
 };
 
 let foundCount = 0;
