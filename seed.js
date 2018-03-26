@@ -28,7 +28,7 @@ const startUpdate = async (cb) => {
 	await asyncForEach(groups, async (group) => {
 		await asyncForEach(group.members, async (participant) => {
 			try {
-				await updateParticipantSeed(participant);
+				//await updateParticipantSeed(participant);
 			} catch (e) {
 				console.error(e);
 			}
