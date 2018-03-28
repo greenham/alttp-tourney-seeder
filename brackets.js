@@ -38,14 +38,16 @@ participants.sort((a, b) => {
 
 // Set participant's original seed
 let seedList = [];
+let matchesPlayed = 0;
 participants.forEach((participant, index) => {
 	participant.seed = index+1;
+	matchesPlayed += participant.raceTimes.length;
 	participants[index] = participant;
 	seedList.push(`${index+1}. ${participant.srcUsername} (${participant.bestRaceTime.toString().toHHMMSS()}) [${participant.wins}-${participant.losses}]`);
 });
 
 let seedFile = 'out/bracket-seeds-'+Date.now()+'.txt';
-fs.writeFile(seedFile, seedList.join("\n"), (err) => {
+fs.writeFile(seedFile, `${matchesPlayed/2} / 192 Played\n${seedList.join("\n")}`, (err) => {
 	if (err) console.error(err);
 	console.log(`Wrote bracket seeds to ${seedFile}`);
 });
