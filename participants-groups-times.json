@@ -35,8 +35,8 @@
     "challongeId": 66639659,
     "challongeUsername": "Acmlm",
     "srcUsername": "Acmlm",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [5234],
+    "wins": 1,
     "losses": 0
   },
   {
@@ -123,9 +123,9 @@
     "challongeId": 66611302,
     "challongeUsername": "SpaceKatUniverse",
     "srcUsername": "SpaceKatUniverse",
-    "raceTimes": [],
+    "raceTimes": [6645],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66493198,
@@ -243,9 +243,9 @@
     "challongeId": 66478215,
     "challongeUsername": "EmoSaru",
     "srcUsername": "EmoSaru",
-    "raceTimes": [],
+    "raceTimes": [5947],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66498366,
@@ -291,8 +291,8 @@
     "challongeId": 66470183,
     "challongeUsername": "BluntBunny",
     "srcUsername": "BluntBunny",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [5270],
+    "wins": 1,
     "losses": 0
   },
   {
@@ -419,17 +419,17 @@
     "challongeId": 66483787,
     "challongeUsername": "Benteezy",
     "srcUsername": "Benteezy",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [5669],
+    "wins": 1,
     "losses": 0
   },
   {
     "challongeId": 66481293,
     "challongeUsername": "Ninnyz",
     "srcUsername": "Ninnyz",
-    "raceTimes": [],
+    "raceTimes": [5772],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66483312,
@@ -547,8 +547,8 @@
     "challongeId": 66470618,
     "challongeUsername": "TheSabin",
     "srcUsername": "TheSabin",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [5367],
+    "wins": 1,
     "losses": 0
   },
   {
@@ -859,9 +859,9 @@
     "challongeId": 66474566,
     "challongeUsername": "Jetabb",
     "srcUsername": "Jetabb",
-    "raceTimes": [],
+    "raceTimes": [8236],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66648106,
