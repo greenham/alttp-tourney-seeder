@@ -427,7 +427,7 @@
     "challongeId": 66481293,
     "challongeUsername": "Ninnyz",
     "srcUsername": "Ninnyz",
-    "raceTimes": [5772, ],
+    "raceTimes": [5772, 5420],
     "wins": 0,
     "losses": 1
   },
@@ -891,9 +891,9 @@
     "challongeId": 66471796,
     "challongeUsername": "Mageius",
     "srcUsername": "Mageius",
-    "raceTimes": [],
+    "raceTimes": [10800],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66474943,
