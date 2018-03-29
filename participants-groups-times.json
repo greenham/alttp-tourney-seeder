@@ -195,8 +195,8 @@
     "challongeId": 66555680,
     "challongeUsername": "dklutie24",
     "srcUsername": "dklutie24",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [5308, 5399],
+    "wins": 2,
     "losses": 0
   },
   {
@@ -411,9 +411,9 @@
     "challongeId": 66866136,
     "challongeUsername": "Vascos",
     "srcUsername": "Vascos",
-    "raceTimes": [],
+    "raceTimes": [6339],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66483787,
@@ -595,9 +595,9 @@
     "challongeId": 66483485,
     "challongeUsername": "Chexhuman",
     "srcUsername": "Chexhuman",
-    "raceTimes": [],
+    "raceTimes": [5719],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66610280,
