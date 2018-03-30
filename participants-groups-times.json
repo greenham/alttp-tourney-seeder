@@ -219,9 +219,9 @@
     "challongeId": 66475639,
     "challongeUsername": "tinahacks",
     "srcUsername": "tinahacks",
-    "raceTimes": [],
+    "raceTimes": [5825],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66470570,
@@ -683,8 +683,8 @@
     "challongeId": 66475657,
     "challongeUsername": "FeralPigMan",
     "srcUsername": "FeralPigMan",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [5700],
+    "wins": 1,
     "losses": 0
   },
   {
@@ -763,9 +763,9 @@
     "challongeId": 66566737,
     "challongeUsername": "Shaerila",
     "srcUsername": "Shaerila",
-    "raceTimes": [],
+    "raceTimes": [8968],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66471012,
