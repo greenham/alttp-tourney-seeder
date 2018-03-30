@@ -67,8 +67,8 @@
     "challongeId": 66470278,
     "challongeUsername": "Greffery",
     "srcUsername": "Greffery",
-    "raceTimes": [5386],
-    "wins": 1,
+    "raceTimes": [5386, 5343],
+    "wins": 2,
     "losses": 0
   },
   {
@@ -259,8 +259,8 @@
     "challongeId": 66470304,
     "challongeUsername": "Kyong92",
     "srcUsername": "Kyong92",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [5352],
+    "wins": 1,
     "losses": 0
   },
   {
@@ -323,8 +323,8 @@
     "challongeId": 69137506,
     "challongeUsername": "solidusSRL",
     "srcUsername": "solidus",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [5556],
+    "wins": 1,
     "losses": 0
   },
   {
@@ -627,9 +627,9 @@
     "challongeId": 66494278,
     "challongeUsername": "inthenameofDT",
     "srcUsername": "inthenameofDT",
-    "raceTimes": [],
+    "raceTimes": [6093],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 67267472,
