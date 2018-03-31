@@ -635,9 +635,9 @@
     "challongeId": 67267472,
     "challongeUsername": "c0smoh",
     "srcUsername": "Cosmoh",
-    "raceTimes": [],
+    "raceTimes": [10800],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66479208,
