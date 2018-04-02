@@ -107,8 +107,8 @@
     "challongeId": 66480494,
     "challongeUsername": "ThunderMustache",
     "srcUsername": "ThunderMustache",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [5530],
+    "wins": 1,
     "losses": 0
   },
   {
@@ -147,6 +147,7 @@
     "challongeId": 66470639,
     "challongeUsername": "Lanxion",
     "srcUsername": "Lanxion",
+    // needs another time for the forfeit from Eazin
     "raceTimes": [5854],
     "wins": 0,
     "losses": 1
@@ -347,9 +348,9 @@
     "challongeId": 66632189,
     "challongeUsername": "takaze",
     "srcUsername": "takaze",
-    "raceTimes": [],
+    "raceTimes": [6596],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66512848,
@@ -483,6 +484,7 @@
     "challongeId": 66470402,
     "challongeUsername": "Fricker22",
     "srcUsername": "Fricker22",
+    // needs another time for the forfeit from Eazin
     "raceTimes": [5246],
     "wins": 1,
     "losses": 0
@@ -707,6 +709,7 @@
     "challongeId": 66555240,
     "challongeUsername": "Salatmann92",
     "srcUsername": "Salatmann92",
+    // needs another time for the forfeit from Eazin
     "raceTimes": [],
     "wins": 0,
     "losses": 0
