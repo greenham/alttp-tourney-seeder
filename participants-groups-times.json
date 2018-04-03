@@ -19,9 +19,9 @@
     "challongeId": 66495450,
     "challongeUsername": "Maniacal42",
     "srcUsername": "Maniacal",
-    "raceTimes": [],
+    "raceTimes": [6150],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66538969,
@@ -172,8 +172,8 @@
     "challongeId": 66513241,
     "challongeUsername": "johncarls",
     "srcUsername": "johncarls",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [5822],
+    "wins": 1,
     "losses": 0
   },
   {
@@ -204,9 +204,9 @@
     "challongeId": 66480382,
     "challongeUsername": "mugi",
     "srcUsername": "ivan",
-    "raceTimes": [5505],
+    "raceTimes": [5505, 5422],
     "wins": 1,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 67077036,
@@ -460,8 +460,8 @@
     "challongeId": 66567813,
     "challongeUsername": "DoDeChehedron",
     "srcUsername": "DoDeChehedron",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [5514],
+    "wins": 1,
     "losses": 0
   },
   {
@@ -573,9 +573,9 @@
     "challongeId": 66620498,
     "challongeUsername": "nathacsa",
     "srcUsername": "nathacsa",
-    "raceTimes": [],
+    "raceTimes": [7546],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66472317,
@@ -734,9 +734,9 @@
     "challongeId": 66536766,
     "challongeUsername": "lltemple",
     "srcUsername": "lltemple",
-    "raceTimes": [6133],
+    "raceTimes": [6133, 6451],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66481448,
@@ -806,16 +806,16 @@
     "challongeId": 66474428,
     "challongeUsername": "runnerwatcher",
     "srcUsername": "runnerwatcher",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [5385],
+    "wins": 1,
     "losses": 0
   },
   {
     "challongeId": 66573022,
     "challongeUsername": "Xyrak",
     "srcUsername": "Xyrak",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [5603],
+    "wins": 1,
     "losses": 0
   },
   {
@@ -862,9 +862,9 @@
     "challongeId": 66474566,
     "challongeUsername": "Jetabb",
     "srcUsername": "Jetabb",
-    "raceTimes": [8236],
+    "raceTimes": [8236, 6671],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66648106,
@@ -918,8 +918,8 @@
     "challongeId": 66484215,
     "challongeUsername": "yelsraek",
     "srcUsername": "yelsraek",
-    "raceTimes": [5750],
-    "wins": 0,
+    "raceTimes": [5750, 6230],
+    "wins": 1,
     "losses": 1
   },
   {
