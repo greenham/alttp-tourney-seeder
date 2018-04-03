@@ -6,4 +6,4 @@ missing.txt
 participants.json*
 participants-missing.txt
 out/*
-.idea
+*.idea
