@@ -11,8 +11,8 @@
     "challongeId": 66510098,
     "challongeUsername": "V0oid",
     "srcUsername": "V0oid",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [5274],
+    "wins": 1,
     "losses": 0
   },
   {
@@ -123,9 +123,9 @@
     "challongeId": 66611302,
     "challongeUsername": "SpaceKatUniverse",
     "srcUsername": "SpaceKatUniverse",
-    "raceTimes": [6645],
+    "raceTimes": [6645, 6590],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66493198,
@@ -244,8 +244,8 @@
     "challongeId": 66478215,
     "challongeUsername": "EmoSaru",
     "srcUsername": "EmoSaru",
-    "raceTimes": [5947],
-    "wins": 0,
+    "raceTimes": [5947, 5680],
+    "wins": 1,
     "losses": 1
   },
   {
@@ -372,9 +372,9 @@
     "challongeId": 66623359,
     "challongeUsername": "SerelepeM",
     "srcUsername": "SerelepeMarsupial",
-    "raceTimes": [],
+    "raceTimes": [6252],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66727333,
@@ -523,11 +523,12 @@
     "losses": 0
   },
   {
+    "_comment": "Needs another time for forfeit by eab",
     "challongeId": 66470160,
     "challongeUsername": "parisianplayer",
     "srcUsername": "parisianplayer",
-    "raceTimes": [5957],
-    "wins": 1,
+    "raceTimes": [5957, 5678],
+    "wins": 2,
     "losses": 0
   },
   {
@@ -702,9 +703,9 @@
     "challongeId": 66616629,
     "challongeUsername": "EaBTasRaiul",
     "srcUsername": "EaBTasRaiul",
-    "raceTimes": [10800],
+    "raceTimes": [10800, 10800],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "_comment": "needs another time for the forfeit from Eazin",
@@ -831,8 +832,8 @@
     "challongeId": 66550438,
     "challongeUsername": "Kohrek",
     "srcUsername": "Kohrek",
-    "raceTimes": [6062],
-    "wins": 0,
+    "raceTimes": [6062, 6233],
+    "wins": 1,
     "losses": 1
   },
   {
@@ -927,9 +928,9 @@
     "challongeId": 66723794,
     "challongeUsername": "JohnRossums",
     "srcUsername": "JohnRossums",
-    "raceTimes": [6174],
+    "raceTimes": [6174, 5820],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66574635,
