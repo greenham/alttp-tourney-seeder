@@ -20,17 +20,21 @@ console.log(`Found ${participants.length} participants to seed...`);
 participants.sort((a, b) => {
 	// find the best race time for each racer, then compare
 	if (a.raceTimes.length > 0) {
-		a.raceTimes.sort();
+		a.raceTimes.sort(util.sortNumber);
 		a.bestRaceTime = a.raceTimes[0];
+		a.averageRaceTime = util.average(a.raceTimes);
 	} else {
 		a.bestRaceTime = 999999;
+		a.averageRaceTime = 999999;
 	}
 
 	if (b.raceTimes.length > 0) {
-		b.raceTimes.sort();
+		b.raceTimes.sort(util.sortNumber);
 		b.bestRaceTime = b.raceTimes[0];
+		b.averageRaceTime = util.average(b.raceTimes);
 	} else {
 		b.bestRaceTime = 999999;
+		b.averageRaceTime = 999999;
 	}
 
 	return a.bestRaceTime - b.bestRaceTime;
@@ -47,7 +51,7 @@ participants.forEach((participant, index) => {
 		missingMatches++;
 	}
 	participants[index] = participant;
-	seedList.push(`${index+1}. ${participant.srcUsername} (${participant.bestRaceTime.toString().toHHMMSS()}) [${participant.wins}-${participant.losses}]`);
+	seedList.push(`${index+1}. ${participant.srcUsername} (${participant.bestRaceTime.toString().toHHMMSS()}) [${participant.wins}-${participant.losses}] | Average Time: ${participant.averageRaceTime.toString().toHHMMSS()}`);
 });
 
 let seedFile = 'out/bracket-seeds-'+Date.now()+'.txt';
