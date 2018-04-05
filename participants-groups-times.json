@@ -396,8 +396,8 @@
     "challongeId": 67112204,
     "challongeUsername": "Buane",
     "srcUsername": "Buane",
-    "raceTimes": [5533, 10800],
-    "wins": 0,
+    "raceTimes": [5533, 10800, 5653],
+    "wins": 1,
     "losses": 2
   },
   {
@@ -436,8 +436,8 @@
     "challongeId": 66483312,
     "challongeUsername": "DrunkenDraconian",
     "srcUsername": "DrunkenDraconian",
-    "raceTimes": [5920, 5964],
-    "wins": 0,
+    "raceTimes": [5920, 5964, 5749],
+    "wins": 1,
     "losses": 2
   },
   {
@@ -510,9 +510,9 @@
     "challongeId": 66474763,
     "challongeUsername": "aweglib",
     "srcUsername": "aweglib",
-    "raceTimes": [6916],
+    "raceTimes": [6916, 6162],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 69241663,
@@ -523,7 +523,6 @@
     "losses": 0
   },
   {
-    "_comment": "Needs another time for forfeit by eab",
     "challongeId": 66470160,
     "challongeUsername": "parisianplayer",
     "srcUsername": "parisianplayer",
@@ -776,8 +775,8 @@
     "challongeId": 66471012,
     "challongeUsername": "Caznode",
     "srcUsername": "Caznode",
-    "raceTimes": [5308],
-    "wins": 1,
+    "raceTimes": [5308, 5431],
+    "wins": 2,
     "losses": 0
   },
   {
@@ -840,9 +839,9 @@
     "challongeId": 66474668,
     "challongeUsername": "SNESChalmers",
     "srcUsername": "SNESChalmers_",
-    "raceTimes": [],
+    "raceTimes": [5690],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66472200,
