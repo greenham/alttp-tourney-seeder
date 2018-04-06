@@ -236,8 +236,8 @@
     "challongeId": 67137794,
     "challongeUsername": "OhHeyItsDavid",
     "srcUsername": "OhHeyItsDavid",
-    "raceTimes": [5507, 6543],
-    "wins": 1,
+    "raceTimes": [5507, 6543, 5514],
+    "wins": 2,
     "losses": 1
   },
   {
@@ -452,8 +452,8 @@
     "challongeId": 66633151,
     "challongeUsername": "DarkMindDemon",
     "srcUsername": "DarkMindDemon",
-    "raceTimes": [5194, 5368],
-    "wins": 2,
+    "raceTimes": [5194, 5368, 5332],
+    "wins": 3,
     "losses": 0
   },
   {
@@ -993,7 +993,7 @@
     "srcUsername": "Antinomy",
     "raceTimes": [10800],
     "wins": 0,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 67661774,
