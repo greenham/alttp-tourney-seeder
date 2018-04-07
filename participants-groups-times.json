@@ -27,9 +27,9 @@
     "challongeId": 66538969,
     "challongeUsername": "SprSuperplayer2",
     "srcUsername": "SprSuperplayer2",
-    "raceTimes": [10800],
+    "raceTimes": [10800, 6914],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66639659,
@@ -751,8 +751,8 @@
     "challongeId": 66476154,
     "challongeUsername": "Rezovayix",
     "srcUsername": "Rezovayix",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [6007],
+    "wins": 1,
     "losses": 0
   },
   {
@@ -815,9 +815,9 @@
     "challongeId": 66573022,
     "challongeUsername": "Xyrak",
     "srcUsername": "Xyrak",
-    "raceTimes": [5603],
+    "raceTimes": [5603, 5761],
     "wins": 1,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66579901,
@@ -871,8 +871,8 @@
     "challongeId": 66648106,
     "challongeUsername": "btilcx",
     "srcUsername": "btilcx",
-    "raceTimes": [5252, 5504],
-    "wins": 2,
+    "raceTimes": [5252, 5504, 5217],
+    "wins": 3,
     "losses": 0
   },
   {
