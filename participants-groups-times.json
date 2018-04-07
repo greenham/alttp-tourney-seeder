@@ -3,8 +3,8 @@
     "challongeId": 66588681,
     "challongeUsername": "wqqqqwrt",
     "srcUsername": "wqqqqwrt",
-    "raceTimes": [5166, 10800],
-    "wins": 1,
+    "raceTimes": [5166, 10800, 5230],
+    "wins": 2,
     "losses": 1
   },
   {
@@ -268,9 +268,9 @@
     "challongeId": 66470266,
     "challongeUsername": "ElminsterRTA",
     "srcUsername": "Elminster",
-    "raceTimes": [5676, 5699],
+    "raceTimes": [5676, 5699, 5606],
     "wins": 2,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 67310229,
@@ -727,8 +727,8 @@
     "challongeId": 66623851,
     "challongeUsername": "darkmagician1184",
     "srcUsername": "darkmagician1184",
-    "raceTimes": [10800],
-    "wins": 0,
+    "raceTimes": [10800, 5653],
+    "wins": 1,
     "losses": 1
   },
   {
@@ -791,9 +791,9 @@
     "challongeId": 66578969,
     "challongeUsername": "SDiezal",
     "srcUsername": "SDiezal",
-    "raceTimes": [10800],
+    "raceTimes": [10800, 5823],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66580745,
@@ -967,17 +967,17 @@
     "challongeId": 66545849,
     "challongeUsername": "dbzfankidboo",
     "srcUsername": "dbzfankidboo",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [5477],
+    "wins": 1,
     "losses": 0
   },
   {
     "challongeId": 66576717,
     "challongeUsername": "chaucer",
     "srcUsername": "chaucer_",
-    "raceTimes": [5764],
+    "raceTimes": [5764, 6072],
     "wins": 1,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66994357,
