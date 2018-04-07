@@ -300,8 +300,8 @@
     "challongeId": 66475566,
     "challongeUsername": "DRock91384",
     "srcUsername": "DRock91384",
-    "raceTimes": [5454, 6035],
-    "wins": 1,
+    "raceTimes": [5454, 6035, 5602],
+    "wins": 2,
     "losses": 1
   },
   {
@@ -486,8 +486,8 @@
     "challongeId": 66470402,
     "challongeUsername": "Fricker22",
     "srcUsername": "Fricker22",
-    "raceTimes": [5246],
-    "wins": 2,
+    "raceTimes": [5246, 5324],
+    "wins": 3,
     "losses": 0
   },
   {
@@ -711,9 +711,9 @@
     "challongeId": 66555240,
     "challongeUsername": "Salatmann92",
     "srcUsername": "Salatmann92",
-    "raceTimes": [],
+    "raceTimes": [6919],
     "wins": 1,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66487948,
