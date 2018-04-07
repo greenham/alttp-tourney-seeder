@@ -196,8 +196,8 @@
     "challongeId": 66555680,
     "challongeUsername": "dklutie24",
     "srcUsername": "dklutie24",
-    "raceTimes": [5308, 5399],
-    "wins": 2,
+    "raceTimes": [5308, 5399, 5292],
+    "wins": 3,
     "losses": 0
   },
   {
@@ -943,9 +943,9 @@
     "challongeId": 66470233,
     "challongeUsername": "emetatron",
     "srcUsername": "emetatron",
-    "raceTimes": [5437, 5500],
+    "raceTimes": [5437, 5500, 5560],
     "wins": 2,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66961178,
