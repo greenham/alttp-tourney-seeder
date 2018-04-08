@@ -180,9 +180,9 @@
     "challongeId": 66470302,
     "challongeUsername": "Rezephos",
     "srcUsername": "Rezephos",
-    "raceTimes": [10800, 10800],
+    "raceTimes": [10800, 10800, 6241],
     "wins": 0,
-    "losses": 2
+    "losses": 3
   },
   {
     "challongeId": 66477739,
@@ -348,9 +348,9 @@
     "challongeId": 66632189,
     "challongeUsername": "takaze",
     "srcUsername": "takaze",
-    "raceTimes": [6596],
+    "raceTimes": [6596, 6000],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66512848,
@@ -477,8 +477,8 @@
     "challongeId": 66561267,
     "challongeUsername": "Eriprham",
     "srcUsername": "Eriphram",
-    "raceTimes": [6141],
-    "wins": 1,
+    "raceTimes": [6141, 6113],
+    "wins": 2,
     "losses": 1
   },
   {
@@ -582,8 +582,8 @@
     "challongeId": 66472317,
     "challongeUsername": "Muttski",
     "srcUsername": "Muttski",
-    "raceTimes": [5396],
-    "wins": 1,
+    "raceTimes": [5396, 5365],
+    "wins": 2,
     "losses": 0
   },
   {
@@ -678,8 +678,8 @@
     "challongeId": 66468670,
     "challongeUsername": "screevo",
     "srcUsername": "screevo",
-    "raceTimes": [5402, 5776],
-    "wins": 2,
+    "raceTimes": [5402, 5776, 6047],
+    "wins": 3,
     "losses": 0
   },
   {
@@ -694,8 +694,8 @@
     "challongeId": 66654007,
     "challongeUsername": "Jet082",
     "srcUsername": "Jet082",
-    "raceTimes": [5690],
-    "wins": 0,
+    "raceTimes": [5690, 5592],
+    "wins": 1,
     "losses": 1
   },
   {
@@ -879,9 +879,9 @@
     "challongeId": 66474586,
     "challongeUsername": "authorblues",
     "srcUsername": "authorblues",
-    "raceTimes": [6138],
+    "raceTimes": [6138, 5593],
     "wins": 1,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66472326,
@@ -959,9 +959,9 @@
     "challongeId": 66699315,
     "challongeUsername": "Nickynoel",
     "srcUsername": "Nickynoel",
-    "raceTimes": [6284],
+    "raceTimes": [6284, 6250],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66545849,
