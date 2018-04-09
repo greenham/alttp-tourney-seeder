@@ -5,7 +5,7 @@ const challongeApiBaseUrl = `https://${config.challonge.username}:${config.chall
 const userAgent = "alttp-tourney-seeder/1.0";
 const util = require('./lib/util.js');
 const participantsFile = 'participants-groups-times.json';
-//const participantsFile = 'out/groups-times-no-ff.json';
+//const participantsFile = 'out/groups-times-2ff.json';
 let parseArgs = require('minimist')(process.argv.slice(2));
 
 // Pull in participants
