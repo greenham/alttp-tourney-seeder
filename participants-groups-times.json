@@ -11,17 +11,17 @@
     "challongeId": 66510098,
     "challongeUsername": "V0oid",
     "srcUsername": "V0oid",
-    "raceTimes": [5274],
-    "wins": 1,
+    "raceTimes": [5274, 5306],
+    "wins": 2,
     "losses": 0
   },
   {
     "challongeId": 66495450,
     "challongeUsername": "Maniacal42",
     "srcUsername": "Maniacal",
-    "raceTimes": [6150],
+    "raceTimes": [6150, 6253],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66538969,
@@ -51,8 +51,8 @@
     "challongeId": 66519264,
     "challongeUsername": "tbham",
     "srcUsername": "tbham",
-    "raceTimes": [5691, 5772],
-    "wins": 0,
+    "raceTimes": [5691, 5772, 5767],
+    "wins": 1,
     "losses": 2
   },
   {
@@ -164,8 +164,8 @@
     "challongeId": 66483917,
     "challongeUsername": "TGH_",
     "srcUsername": "TGH",
-    "raceTimes": [5183, 5358],
-    "wins": 2,
+    "raceTimes": [5183, 5358, 5508],
+    "wins": 3,
     "losses": 0
   },
   {
@@ -364,8 +364,8 @@
     "challongeId": 66477138,
     "challongeUsername": "Cransoon",
     "srcUsername": "Cransoon",
-    "raceTimes": [5529, 5484],
-    "wins": 1,
+    "raceTimes": [5529, 5484, 5711],
+    "wins": 2,
     "losses": 1
   },
   {
@@ -420,9 +420,9 @@
     "challongeId": 66483787,
     "challongeUsername": "Benteezy",
     "srcUsername": "Benteezy",
-    "raceTimes": [5669, 5615],
+    "raceTimes": [5669, 5615, 10800],
     "wins": 2,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66481293,
@@ -510,9 +510,9 @@
     "challongeId": 66474763,
     "challongeUsername": "aweglib",
     "srcUsername": "aweglib",
-    "raceTimes": [6916, 6162],
+    "raceTimes": [6916, 6162, 6206],
     "wins": 0,
-    "losses": 2
+    "losses": 3
   },
   {
     "challongeId": 69241663,
@@ -799,16 +799,16 @@
     "challongeId": 66580745,
     "challongeUsername": "nrgzam",
     "srcUsername": "nrgzam",
-    "raceTimes": [7253],
+    "raceTimes": [7253, 6312],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66474428,
     "challongeUsername": "runnerwatcher",
     "srcUsername": "runnerwatcher",
-    "raceTimes": [5385],
-    "wins": 1,
+    "raceTimes": [5385, 5324],
+    "wins": 2,
     "losses": 0
   },
   {
@@ -823,9 +823,9 @@
     "challongeId": 66579901,
     "challongeUsername": "TrogdorSRL",
     "srcUsername": "trogdor",
-    "raceTimes": [6482, 6163],
+    "raceTimes": [6482, 6163, 5835],
     "wins": 1,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66550438,
