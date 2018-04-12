@@ -5,6 +5,7 @@ const challongeApiBaseUrl = `https://${config.challonge.username}:${config.chall
 const userAgent = "alttp-tourney-seeder/1.0";
 const util = require('./lib/util.js');
 const participantsFile = 'participants-groups-times.json';
+const bracketParticipants = JSON.parse(fs.readFileSync('bracket-participants.json'));
 //const participantsFile = 'out/groups-times-2ff.json';
 let parseArgs = require('minimist')(process.argv.slice(2));
 
@@ -43,9 +44,11 @@ participants.sort((a, b) => {
 
 // Set participant's original seed and calculate some stats
 let seedList = [];
+let bestTimesList = [];
 let totalRaceTimes = 0;
 let raceTimesSum = 0;
 let missingMatches = 0;
+let bracketSeed = 0;
 participants.forEach((participant, index) => {
 	participant.seed = index+1;
 	totalRaceTimes += participant.raceTimes.length;
@@ -54,18 +57,30 @@ participants.forEach((participant, index) => {
 		missingMatches++;
 	}
 	participants[index] = participant;
-	seedList.push(`${index+1}. ${participant.srcUsername} (${participant.bestRaceTime.toString().toHHMMSS()}) [${participant.wins}-${participant.losses}] | Average Time: ${participant.averageRaceTime.toString().toHHMMSS()}`);
+	bestTimesList.push(`${index+1}. ${participant.srcUsername} (${participant.bestRaceTime.toString().toHHMMSS()})`);
+
+	if (bracketParticipants.includes(participant.challongeUsername)) {
+		bracketSeed++;
+		seedList.push(`${bracketSeed}. ${participant.srcUsername} (${participant.bestRaceTime.toString().toHHMMSS()}) [${participant.wins}-${participant.losses}] | Average Time: ${participant.averageRaceTime.toString().toHHMMSS()}`);
+	}
 });
 
 let raceTimeAverage = raceTimesSum / totalRaceTimes;
 
 let seedFile = 'out/bracket-seeds-'+Date.now()+'.txt';
 let totalMatches = totalRaceTimes/2;
-let output = `${totalMatches} / 192 Matches Played (${(totalMatches/192)*100}%)\n`
+let headerText = `${totalMatches} / 192 Matches Played (${(totalMatches/192)*100}%)\n`
 					 + `${missingMatches} / 128 Racers w/o Race (${(missingMatches/128)*100}%)\n\n`
-					 + `${raceTimeAverage.toString().toHHMMSS()} Average Race Time\n\n`
-					 + `${seedList.join("\n")}`
-fs.writeFile(seedFile, output, (err) => {
+					 + `${raceTimeAverage.toString().toHHMMSS()} Average Race Time\n\n`;
+
+
+fs.writeFile(seedFile, headerText+`${seedList.join("\n")}`, (err) => {
 	if (err) console.error(err);
 	console.log(`Wrote bracket seeds to ${seedFile}`);
+});
+
+let bestTimesFile = 'out/best-times-'+Date.now()+'.txt';
+fs.writeFile(bestTimesFile, headerText+`${bestTimesList.join("\n")}`, (err) => {
+	if (err) console.error(err);
+	console.log(`Wrote best times to ${bestTimesFile}`);
 });
