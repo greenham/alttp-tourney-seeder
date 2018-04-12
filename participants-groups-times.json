@@ -751,8 +751,8 @@
     "challongeId": 66476154,
     "challongeUsername": "Rezovayix",
     "srcUsername": "Rezovayix",
-    "raceTimes": [6007, 10800],
-    "wins": 1,
+    "raceTimes": [6007, 10800, 5628],
+    "wins": 2,
     "losses": 1
   },
   {
@@ -1007,9 +1007,9 @@
     "challongeId": 66867159,
     "challongeUsername": "BambooShadow",
     "srcUsername": "BambooShadow",
-    "raceTimes": [5422],
+    "raceTimes": [5422, 6143],
     "wins": 1,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66959868,

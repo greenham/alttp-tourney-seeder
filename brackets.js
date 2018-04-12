@@ -57,7 +57,7 @@ participants.forEach((participant, index) => {
 		missingMatches++;
 	}
 	participants[index] = participant;
-	bestTimesList.push(`${index+1}. ${participant.srcUsername} (${participant.bestRaceTime.toString().toHHMMSS()})`);
+	bestTimesList.push(`${index+1}. ${participant.srcUsername} (${participant.bestRaceTime.toString().toHHMMSS()}) [${participant.wins}-${participant.losses}] | Average Time: ${participant.averageRaceTime.toString().toHHMMSS()}`);
 
 	if (bracketParticipants.includes(participant.challongeUsername)) {
 		bracketSeed++;
