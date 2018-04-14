@@ -107,8 +107,8 @@
     "challongeId": 66480494,
     "challongeUsername": "ThunderMustache",
     "srcUsername": "ThunderMustache",
-    "raceTimes": [5530],
-    "wins": 1,
+    "raceTimes": [5530, 5712],
+    "wins": 2,
     "losses": 0
   },
   {
@@ -212,9 +212,9 @@
     "challongeId": 67077036,
     "challongeUsername": "EODTex",
     "srcUsername": "EODTex",
-    "raceTimes": [5897],
+    "raceTimes": [5897, 5813],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66475639,
@@ -590,8 +590,8 @@
     "challongeId": 66470209,
     "challongeUsername": "Zarby89",
     "srcUsername": "Zarby89",
-    "raceTimes": [],
-    "wins": 0,
+    "raceTimes": [6196],
+    "wins": 1,
     "losses": 0
   },
   {
@@ -791,9 +791,9 @@
     "challongeId": 66578969,
     "challongeUsername": "SDiezal",
     "srcUsername": "SDiezal",
-    "raceTimes": [10800, 5823],
+    "raceTimes": [10800, 5823, 6431],
     "wins": 0,
-    "losses": 2
+    "losses": 3
   },
   {
     "challongeId": 66580745,
