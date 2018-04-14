@@ -388,8 +388,8 @@
     "challongeId": 66989890,
     "challongeUsername": "Z4T0X",
     "srcUsername": "Z4T0X",
-    "raceTimes": [5601],
-    "wins": 1,
+    "raceTimes": [5601, 5536],
+    "wins": 2,
     "losses": 0
   },
   {
@@ -614,8 +614,8 @@
     "challongeId": 66478943,
     "challongeUsername": "mikethev",
     "srcUsername": "mikethev",
-    "raceTimes": [5270, 5195],
-    "wins": 2,
+    "raceTimes": [5270, 5195, 5243],
+    "wins": 3,
     "losses": 0
   },
   {
@@ -662,9 +662,9 @@
     "challongeId": 66814159,
     "challongeUsername": "Chrouya",
     "srcUsername": "Chrouya",
-    "raceTimes": [7294],
+    "raceTimes": [7294, 7073],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66470786,
@@ -887,9 +887,9 @@
     "challongeId": 66472326,
     "challongeUsername": "pikapals",
     "srcUsername": "pikapals",
-    "raceTimes": [5704, 5546],
+    "raceTimes": [5704, 5546, 5636],
     "wins": 2,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66471796,
