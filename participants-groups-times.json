@@ -67,8 +67,8 @@
     "challongeId": 66470278,
     "challongeUsername": "Greffery",
     "srcUsername": "Greffery",
-    "raceTimes": [5386, 5343],
-    "wins": 2,
+    "raceTimes": [5386, 5343, 5530],
+    "wins": 3,
     "losses": 0
   },
   {
@@ -131,8 +131,8 @@
     "challongeId": 66493198,
     "challongeUsername": "ChristosOwen",
     "srcUsername": "ChristosOwen",
-    "raceTimes": [5398, 5435],
-    "wins": 2,
+    "raceTimes": [5398, 5435, 5342],
+    "wins": 3,
     "losses": 0
   },
   {
@@ -337,12 +337,13 @@
     "losses": 1
   },
   {
+    "_comment": "needs another time for forfeit from eab",
     "challongeId": 66647542,
     "challongeUsername": "Contos",
     "srcUsername": "Contos",
-    "raceTimes": [7094],
+    "raceTimes": [7094, 5868],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66632189,
@@ -380,9 +381,9 @@
     "challongeId": 66727333,
     "challongeUsername": "Mysticum",
     "srcUsername": "Mysticum",
-    "raceTimes": [10800],
+    "raceTimes": [10800, 6651],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66989890,
@@ -590,9 +591,9 @@
     "challongeId": 66470209,
     "challongeUsername": "Zarby89",
     "srcUsername": "Zarby89",
-    "raceTimes": [6196],
+    "raceTimes": [6196, 10800],
     "wins": 1,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66483485,
@@ -646,8 +647,8 @@
     "challongeId": 66479208,
     "challongeUsername": "Ineb",
     "srcUsername": "Andy",
-    "raceTimes": [5350],
-    "wins": 1,
+    "raceTimes": [5350, 5212],
+    "wins": 2,
     "losses": 0
   },
   {
@@ -702,9 +703,9 @@
     "challongeId": 66616629,
     "challongeUsername": "EaBTasRaiul",
     "srcUsername": "EaBTasRaiul",
-    "raceTimes": [10800, 10800],
+    "raceTimes": [10800, 10800, 10800],
     "wins": 0,
-    "losses": 2
+    "losses": 3
   },
   {
     "_comment": "needs another time for the forfeit from Eazin",
