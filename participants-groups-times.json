@@ -855,9 +855,9 @@
     "challongeId": 66470214,
     "challongeUsername": "Tairr",
     "srcUsername": "Tairr",
-    "raceTimes": [5914],
+    "raceTimes": [5914, 10800],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66474566,
