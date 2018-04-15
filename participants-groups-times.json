@@ -136,11 +136,12 @@
     "losses": 0
   },
   {
+    "_comment": "needs another time due to forfeit by smbai",
     "challongeId": 66609593,
     "challongeUsername": "MaltZi",
     "srcUsername": "MaltZi",
     "raceTimes": [5869, 6030],
-    "wins": 1,
+    "wins": 2,
     "losses": 1
   },
   {
@@ -660,11 +661,12 @@
     "losses": 1
   },
   {
+    "_comment": "needs another time due to forfeit by smbai",
     "challongeId": 66814159,
     "challongeUsername": "Chrouya",
     "srcUsername": "Chrouya",
     "raceTimes": [7294, 7073],
-    "wins": 0,
+    "wins": 1,
     "losses": 2
   },
   {
@@ -1024,8 +1026,8 @@
     "challongeId": 66470566,
     "challongeUsername": "smbai",
     "srcUsername": "smbai",
-    "raceTimes": [10800],
+    "raceTimes": [10800, 10800, 10800],
     "wins": 0,
-    "losses": 1
+    "losses": 3
   }
 ]
