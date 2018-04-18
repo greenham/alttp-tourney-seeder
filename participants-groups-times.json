@@ -593,8 +593,8 @@
     "challongeId": 66470209,
     "challongeUsername": "Zarby89",
     "srcUsername": "Zarby89",
-    "raceTimes": [6196, 10800],
-    "wins": 1,
+    "raceTimes": [6196, 10800, 5841],
+    "wins": 2,
     "losses": 1
   },
   {
@@ -731,9 +731,9 @@
     "challongeId": 66623851,
     "challongeUsername": "darkmagician1184",
     "srcUsername": "darkmagician1184",
-    "raceTimes": [10800, 5653],
+    "raceTimes": [10800, 5653, 10800],
     "wins": 1,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66536766,
