@@ -19,8 +19,8 @@
     "challongeId": 66495450,
     "challongeUsername": "Maniacal42",
     "srcUsername": "Maniacal",
-    "raceTimes": [6150, 6253],
-    "wins": 0,
+    "raceTimes": [6150, 6253, 6013],
+    "wins": 1,
     "losses": 2
   },
   {
@@ -174,8 +174,8 @@
     "challongeId": 66513241,
     "challongeUsername": "johncarls",
     "srcUsername": "johncarls",
-    "raceTimes": [5822, 6455],
-    "wins": 1,
+    "raceTimes": [5822, 6455, 6546],
+    "wins": 2,
     "losses": 1
   },
   {
@@ -674,9 +674,9 @@
     "challongeId": 66470786,
     "challongeUsername": "Xelnas",
     "srcUsername": "Xelnas",
-    "raceTimes": [7096],
+    "raceTimes": [7096, 10800, 10800],
     "wins": 0,
-    "losses": 1
+    "losses": 3
   },
   {
     "challongeId": 66468670,
@@ -698,8 +698,8 @@
     "challongeId": 66654007,
     "challongeUsername": "Jet082",
     "srcUsername": "Jet082",
-    "raceTimes": [5690, 5592],
-    "wins": 1,
+    "raceTimes": [5690, 5592, 5525],
+    "wins": 2,
     "losses": 1
   },
   {
@@ -996,9 +996,9 @@
     "challongeId": 66494996,
     "challongeUsername": "Phuckbutt",
     "srcUsername": "Antinomy",
-    "raceTimes": [10800],
+    "raceTimes": [10800, 10800],
     "wins": 0,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 67661774,
