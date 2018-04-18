@@ -383,9 +383,9 @@
     "challongeId": 66727333,
     "challongeUsername": "Mysticum",
     "srcUsername": "Mysticum",
-    "raceTimes": [10800, 6651],
+    "raceTimes": [10800, 6651, 6710],
     "wins": 0,
-    "losses": 2
+    "losses": 3
   },
   {
     "challongeId": 66989890,
@@ -916,8 +916,8 @@
     "challongeId": 66508688,
     "challongeUsername": "Jem_",
     "srcUsername": "Jem",
-    "raceTimes": [5440, 5382],
-    "wins": 1,
+    "raceTimes": [5440, 5382, 5462],
+    "wins": 2,
     "losses": 1
   },
   {
@@ -1012,8 +1012,8 @@
     "challongeId": 66867159,
     "challongeUsername": "BambooShadow",
     "srcUsername": "BambooShadow",
-    "raceTimes": [5422, 6143],
-    "wins": 1,
+    "raceTimes": [5422, 6143, 5595],
+    "wins": 2,
     "losses": 1
   },
   {
