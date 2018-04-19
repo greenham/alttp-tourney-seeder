@@ -476,11 +476,10 @@
     "losses": 2
   },
   {
-    "_comment": "needs another time for the forfeit from wq",
     "challongeId": 66561267,
     "challongeUsername": "Eriprham",
     "srcUsername": "Eriphram",
-    "raceTimes": [6141, 6113],
+    "raceTimes": [6141, 6113, 6021],
     "wins": 2,
     "losses": 1
   },
@@ -779,17 +778,17 @@
     "challongeId": 66471012,
     "challongeUsername": "Caznode",
     "srcUsername": "Caznode",
-    "raceTimes": [5308, 5431],
-    "wins": 2,
+    "raceTimes": [5308, 5431, 5288],
+    "wins": 3,
     "losses": 0
   },
   {
     "challongeId": 66574147,
     "challongeUsername": "TheLostLlama",
     "srcUsername": "TheLostLlama",
-    "raceTimes": [5512, 5666],
+    "raceTimes": [5512, 5666, 10800],
     "wins": 2,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66578969,
