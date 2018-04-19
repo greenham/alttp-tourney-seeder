@@ -520,8 +520,8 @@
     "challongeId": 69241663,
     "challongeUsername": "waffle42",
     "srcUsername": "waffle",
-    "raceTimes": [5240],
-    "wins": 1,
+    "raceTimes": [5240, 5279],
+    "wins": 2,
     "losses": 0
   },
   {
@@ -882,9 +882,9 @@
     "challongeId": 66474586,
     "challongeUsername": "authorblues",
     "srcUsername": "authorblues",
-    "raceTimes": [6138, 5593],
+    "raceTimes": [6138, 5593, 5500],
     "wins": 1,
-    "losses": 1
+    "losses": 2
   },
   {
     "challongeId": 66472326,
