@@ -206,8 +206,8 @@
     "challongeId": 66480382,
     "challongeUsername": "mugi",
     "srcUsername": "ivan",
-    "raceTimes": [5505, 5422],
-    "wins": 1,
+    "raceTimes": [5505, 5422, 5770],
+    "wins": 2,
     "losses": 1
   },
   {
@@ -262,8 +262,8 @@
     "challongeId": 66470304,
     "challongeUsername": "Kyong92",
     "srcUsername": "Kyong92",
-    "raceTimes": [5352, 5341],
-    "wins": 2,
+    "raceTimes": [5352, 5341, 5282],
+    "wins": 3,
     "losses": 0
   },
   {
@@ -278,9 +278,9 @@
     "challongeId": 67310229,
     "challongeUsername": "AND4H",
     "srcUsername": "AND4H",
-    "raceTimes": [5572],
+    "raceTimes": [5572, 5581],
     "wins": 1,
-    "losses": 0
+    "losses": 1
   },
   {
     "challongeId": 66477785,
@@ -544,9 +544,9 @@
     "challongeId": 66492742,
     "challongeUsername": "mashystrr",
     "srcUsername": "mashy",
-    "raceTimes": [6638, 6418],
+    "raceTimes": [6638, 6418, 6480],
     "wins": 0,
-    "losses": 2
+    "losses": 3
   },
   {
     "challongeId": 66470618,
